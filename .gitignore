@@ -1,0 +1,54 @@
+# 🧱 Compiled object files
+*.o
+*.obj
+
+# 📦 Static and shared libs
+*.a
+*.so
+*.dll
+*.lib
+
+# ⚙️ Executables
+*.exe
+*.out
+*.elf
+*.bin
+
+# 🛠️ Build directories
+bin/
+build/
+Debug/
+Release/
+
+# 🧱 CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 📈 Test coverage / profiling
+*.gcda
+*.gcno
+*.gcov
+
+# 💥 Core dumps
+core
+
+# 📜 Log files
+*.log
+
+# 🧠 IDE/editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+
+# 🔐 Secrets or local config
+.env
+
+# 🗃️ Extra directories you don't want
+**/scripts/
+**/project.info
+
