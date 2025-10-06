@@ -8,7 +8,6 @@ struct Queue{
     int capacity;     // Maximum element inside the queue
 };
 
-
 Queue* create_queue(size_t queue_length)
 {
     Queue *queue = malloc(sizeof(Queue));
