@@ -1,5 +1,13 @@
 #include "../include/queue.h"
-#include <stdlib.h>
+
+struct Queue{
+    QueueValue *data; // Double void pointer for data inside the Queue
+    int head;         // Track the first element
+    int tail;         // track the last element
+    int size;         // Size of the queue
+    int capacity;     // Maximum element inside the queue
+};
+
 
 Queue* create_queue(size_t queue_length)
 {
